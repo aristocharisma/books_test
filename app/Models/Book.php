@@ -15,4 +15,12 @@ class Book extends Model
         'author',
         'co_author'
     ];
+
+
+    public function author()
+    {
+        return $this->belongsTo(Author::class);
+    }
+
+    
 }
