@@ -9,6 +9,9 @@
         <div class="pull-right">
             <a class="btn btn-success" href="{{ route('books.create') }}"> Create New Book</a>
         </div>
+        <div class="pull-right">
+            <a class="btn btn-success" href="{{ route('authors.index') }}"> Author List</a>
+        </div>
     </div>
 </div>
 
